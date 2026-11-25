@@ -65,7 +65,6 @@ class AuthController extends Controller
             ], 401);
         }
 
-        $user->tokens()->delete();
         $token = $user->createToken('mobile-app-token')->plainTextToken;
 
         return response()->json([
