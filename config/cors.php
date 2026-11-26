@@ -19,7 +19,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['https://terikbakarbuana2610031--nfcj9bmbhy.expo.app'],
+    'allowed_origins' => [
+        'https://terikbakarbuana2610031--nfcj9bmbhy.expo.app',
+        'http://localhost:8081',
+    ],
 
     'allowed_origins_patterns' => [],
 
