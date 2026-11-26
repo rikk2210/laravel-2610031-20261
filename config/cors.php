@@ -20,7 +20,7 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'https://terikbakarbuana2610031--nfcj9bmbhy.expo.app',
+        ' https://terikbakarbuana2610031--3icruhh0pa.expo.app',
         'http://localhost:8081',
     ],
 
